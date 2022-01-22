@@ -86,8 +86,8 @@ function showProducts() {
 }
 showProducts();
 function checkout() {
-    alert("Payment done booking confirmed ");
     window.location = "/index.html";
+    alert("Payment done booking confirmed ");
 
     localStorage.clear();
 }
