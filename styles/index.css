@@ -1,0 +1,355 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    width: 100%;
+    height: 87px;
+    background-color: #0a438b;
+    padding-top: 20px;
+}
+#logo {
+    width: 250px;
+    height: 42px;
+    position: relative;
+    left: 10px;
+}
+#logo-img {
+    width: 250px;
+    height: 42px;
+}
+#moreTravel a{
+    color: whitesmoke;
+    position: relative;
+    left: 280px;
+    bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#menu-nav {
+    position: relative;
+    left: 60%;
+    top: -58px;
+    width: 590px;
+    height: 42px;
+}
+.menu-bar {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 35px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#login {
+    width: 450px;
+    height: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 8%;
+    right: 4.5%;
+    background-color: white;
+    padding: 30px 30px;
+    font-size: 18px;
+    transform:scale(0);
+    transform-origin: top right;
+}
+#login.active {
+    transform:scale(1);
+}
+#login button{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #0e5bb9;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#freeAc {
+   margin-left: 30%;
+}
+
+#login a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* --------------homepage starts------------ */
+
+#home-container1 {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/12/20/TVLY_JanuarySale_imgB_1920x1440_20211210.jpg");
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 10px;
+    
+}
+
+
+.class-main-homepage {
+    background-color: white;
+    border: 1px solid gray;
+    width: 80%;
+    height: 370px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+}
+
+.class-main-second-homepage {
+    display: flex;
+    width: 50%;
+    margin: auto;
+
+
+}
+
+.class-main-input-homepage {
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 35% 20% 20% 25%;
+    grid-gap: 15px; */
+    margin: auto;
+   
+    padding:15px;
+
+}
+.class-main-home{
+    background-color: grey;
+    border-radius: 6px;
+    height:40px;padding:16px;
+}
+
+.class-input-homepage {
+    border-radius: 12px;
+
+    height: 50px;
+    border: 1px solid grey;
+    padding:5px;
+
+}
+#select-id-1{
+    width:550px;
+    margin-top: 20px;
+}
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+
+#id {
+    width: 35%;
+   
+}
+
+#datein {
+    width: 15%;
+  
+
+}
+
+#dateout {
+  
+    width: 15%;
+   
+
+}
+
+#id-1 {
+    margin-right:30px;
+   width:20%
+
+   
+}
+
+#check {
+    width: 20px;
+}
+
+
+
+#btn-id-homepage {
+    margin-left: 40%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    width: 250px
+   
+}
+
+input {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+
+.class-main-packages {
+    text-decoration: none;
+    color: #343b53;
+    padding: 20px;
+    margin: auto;
+}
+
+#id-hr {
+    width: 90%;
+    margin: auto;
+}
+
+.class-image-1 {
+    background-image: url("https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg");
+    width: 82%;
+    margin: auto;
+    height: 300px;
+    border-radius: 10px;
+
+    margin-top: 180px;
+    background-size: cover;
+    font-size: 25px;
+    color: white;
+}
+
+#id-content {
+    
+    position: absolute;
+    bottom: -120px;
+    
+}
+
+.class-plan-your-trip {
+    display: grid;
+    grid-template-columns: 30% 55% 18%;
+    width: 82%;
+    margin: auto;
+    height: 330px;
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    margin-top: 440px;
+}
+
+.class-image-img {
+    width: 350px;
+    height: 330px;
+
+}
+
+.class-image-barcode {
+    width: 70%;
+
+}
+
+.mid-class-in>h1 {
+    font-size: 40px;
+}
+
+.class-Qrcode {
+
+    margin-left: 15px;
+
+    font-size: 20px;
+}
+
+#button-id {
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+}
+
+.class-input-getapp {
+    border-radius: 15px;
+    width: 190px;
+    height: 60px;
+    border: 2px solid grey;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+
+.content-Explore {
+
+    text-decoration: none;
+    color: blue;
+
+}
+
+.content-Explore:hover {
+    text-decoration: underline;
+}
+
+.content-Explore-1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* footer start */
+.footer-class {
+    display: grid;
+    grid-template-columns: 17% 17% 22% 20% 22%;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.footer-img{
+   width:20%
+}
+
+ul {
+    margin-left: 70px;
+
+
+}
+
+#footer-last-img {
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#footer-last-para {
+    text-align: center;
+    color: #343b53;
+    margin-bottom: 100px;
+}
+
+
+/* footer end */
+
+/* --------------homepage ends------------ */

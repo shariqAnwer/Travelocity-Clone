@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/styles/signUp.css">
+</head>
+<body>
+    <div id="signUp-logo">
+        <a href="/index.html"><i class="arr fas fa-arrow-left"></i></a>
+        <img src="https://www.travelocity.com/_dms/interstitial/logo.svg?locale=en_US&siteid=80001" alt="">
+    </div>
+    <hr style="color: rgb(231, 223, 223);">
+
+    <div id="signup-container">
+        <h1>Create an account</h1>
+
+        <form id="signUp-form" onsubmit="return validate(event)">
+            
+            <div>
+                <input type="email" id="email" placeholder="Email address">
+            </div>
+
+            <div>
+                <input type="text" id="fname" placeholder="First name" name="fname">
+            </div>
+            <div>
+                <input type="text" id="lname" placeholder="Last name" name="lname">
+            </div>
+
+            <div>
+                <input type="password" id="pass" placeholder="Password">
+            </div>
+
+            <p class="terms-signUp">By creating an account, I agree to the Travelocity <a href="">Terms and Conditions and Privacy Statement</a>.</p>
+
+            <input type="submit" id="submit" onsubmit="signup()" value="Continue">
+        </form>
+
+        <p style="text-align: center; font-size: 18px;">Already have an account? <a style="text-decoration: none;"  href="/signIn.html">Sign in</a></p>
+
+    </div>
+</body>
+</html>
+
+<script src="/scripts/signUp.js"></script>

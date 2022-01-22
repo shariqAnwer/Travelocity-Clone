@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+#signin-logo{
+    margin-left: 42%;
+    padding: 10px;
+}
+#signin-logo img {
+    height: 38px;
+}
+.arr {
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    color: #0a438b;
+    padding-top: 10px;
+}
+#signin-container {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+#signin-container input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+}
+#signin-container h1 {
+    margin-bottom: 30px;
+}
+.terms-signin a{
+    text-decoration: none;
+}
+.terms-signin {
+    margin: 15px 0px;
+}
+#submit{
+    margin: 25px 0px;
+    font-size: 22px;
+    background-color: #3367a7;
+    color: white;
+}
+

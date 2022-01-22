@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    width: 100%;
+    height: 87px;
+    background-color: #0a438b;
+    padding-top: 20px;
+}
+#logo {
+    width: 250px;
+    height: 42px;
+    position: relative;
+    left: 10px;
+}
+#logo-img {
+    width: 250px;
+    height: 42px;
+}
+#moreTravel a{
+    color: whitesmoke;
+    position: relative;
+    left: 280px;
+    bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#menu-nav {
+    position: relative;
+    left: 63%;
+    top: -58px;
+    width: 530px;
+    height: 42px;
+}
+.menu-bar {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 35px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#login {
+    width: 450px;
+    height: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 8%;
+    right: 4.5%;
+    background-color: white;
+    padding: 30px 30px;
+    font-size: 18px;
+    transform:scale(0);
+    transform-origin: top right;
+}
+#login.active {
+    transform:scale(1);
+}
+#login button{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #0e5bb9;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#freeAc {
+   margin-left: 30%;
+}
+
+#login a{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* nav ends------------------------------------------- */
+
+#container-main-div {
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    cursor: pointer;
+}
+
+#container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+    height: 160px;
+    grid-gap: 3%;
+    border-radius: 10px;
+
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#container>div {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.image-class {
+    display: grid;
+    grid-template-columns: 35% 52% 13%;
+    height: 160px;
+    background-color: white;
+}
+
+
+
+img {
+    
+}
+
+#img-id-hotels {
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+}
+
+#para-div-id {
+    padding: 10px;
+
+}
+
+#item-price {
+    font-size: 24px;
+    margin-top: 6px;
+
+
+}
+
+#offer-id {
+
+    font-size: 10px;
+    padding: 5px;
+    color: white;
+    background-color: #0d7066;
+    border-radius: 20px;
+
+
+}
+
+.class-name {
+    margin-top: -7px;
+    margin-bottom: 18px;
+}
+
+.class-location {
+    margin-top: -18px;
+    font-size: 14px;
+}
+
+.class-price {
+    margin-top: 60px;
+
+}
+
+.class-details {
+    font-size: 13px;
+    color: rgb(94, 92, 92);
+}
+
+#per-night {
+
+    font-size: 10px;
+}
+
+#per-night::first-line {
+    color: rgb(99, 94, 94);
+}
+
+.review-class {
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.class-map {
+    background-image: url("https://i0.wp.com/cssscript.com/wp-content/uploads/2018/03/Simple-Location-Picker.png?fit=561%2C421&ssl=1");
+    height: 200px;
+    width: 100%;
+    margin: auto;
+
+}
+
+#first-side {
+    padding: 40px;
+
+}
+
+#surch-box-id {
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+
+/* #map-loction-id {
+  
+    background-color: white;
+    width: 80%;
+
+} */
+
+.class-property {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#filter-id {
+
+    float: right;
+    width: 200px;
+    height: 40px;
+
+    border-radius: 10px;
+
+}
+
+.traveller-class {
+    font-size: 12px;
+}
